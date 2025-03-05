@@ -6,3 +6,7 @@ compiler.cppstd=17
 compiler.libcxx=libstdc++
 compiler.version=19
 os=Linux
+
+[buildenv]
+CC=/usr/bin/clang-19
+CXX=/usr/bin/clang++-19
