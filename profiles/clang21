@@ -8,8 +8,8 @@ compiler.version=21
 os=Linux
 
 [buildenv]
-CC=/usr/local/bin/clang
-CXX=/usr/local/bin/clang++
+CC=/usr/bin/clang-21
+CXX=/usr/bin/clang++-21
 
 [conf]
 tools.cmake.cmaketoolchain:generator=Ninja
